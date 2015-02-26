@@ -106,4 +106,30 @@ flightPriceStore[@"dispatchToken"] =
   }];
 ```
 
+When you're cleaning up your objects, don't forget to unregister your dangling callbacks with your saved token:
+
+```objc
+[flightDispatcher unregisterCallback: self.flightPriceStore[@"dispatchToken"]];
+```
+
 The `country-update` payload will be guaranteed to invoke the stores' registered callbacks in order: `countryStore`, `cityStore`, then `flightPriceStore`.
+
+## API
+
+```
+@interface CLAFluxDispatcher : NSObject
+
+- (void)dispatch:(NSDictionary *)payload;
+- (void)waitFor:(NSArray *)dispatchTokens;
+
+- (id)registerCallback:(CLAFluxDispatcherCallback)callback;
+- (void)unregisterCallback:(id)dispatchToken;
+
+- (BOOL)isDispatching;
+
+@end
+```
+
+## License
+
+This is [MIT](https://github.com/clayallsopp/CLAFluxDispatcher/blob/master/LICENSE) licensed
