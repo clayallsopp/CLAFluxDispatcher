@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F85EA2181A9D56690036C960 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F85EA2171A9D56690036C960 /* main.m */; };
+		F85EA21B1A9D56690036C960 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F85EA21A1A9D56690036C960 /* AppDelegate.m */; };
+		F85EA21E1A9D56690036C960 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85EA21D1A9D56690036C960 /* ViewController.m */; };
+		F85EA2211A9D56690036C960 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85EA21F1A9D56690036C960 /* Main.storyboard */; };
+		F85EA2231A9D56690036C960 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85EA2221A9D56690036C960 /* Images.xcassets */; };
+		F85EA2261A9D56690036C960 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F85EA2241A9D56690036C960 /* LaunchScreen.xib */; };
+		F85EA2321A9D56690036C960 /* CLAFluxDispatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F85EA2311A9D56690036C960 /* CLAFluxDispatcherTests.m */; };
+		F85EA23D1A9D567E0036C960 /* CLAFluxDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F85EA23C1A9D567E0036C960 /* CLAFluxDispatcher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F85EA22C1A9D56690036C960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85EA20A1A9D56690036C960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F85EA2111A9D56690036C960;
+			remoteInfo = CLAFluxDispatcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F85EA2121A9D56690036C960 /* CLAFluxDispatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLAFluxDispatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85EA2161A9D56690036C960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F85EA2171A9D56690036C960 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F85EA2191A9D56690036C960 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F85EA21A1A9D56690036C960 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F85EA21C1A9D56690036C960 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F85EA21D1A9D56690036C960 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F85EA2201A9D56690036C960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F85EA2221A9D56690036C960 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F85EA2251A9D56690036C960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F85EA22B1A9D56690036C960 /* CLAFluxDispatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLAFluxDispatcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85EA2301A9D56690036C960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F85EA2311A9D56690036C960 /* CLAFluxDispatcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLAFluxDispatcherTests.m; sourceTree = "<group>"; };
+		F85EA23B1A9D567E0036C960 /* CLAFluxDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLAFluxDispatcher.h; path = Classes/CLAFluxDispatcher.h; sourceTree = "<group>"; };
+		F85EA23C1A9D567E0036C960 /* CLAFluxDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLAFluxDispatcher.m; path = Classes/CLAFluxDispatcher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F85EA20F1A9D56690036C960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85EA2281A9D56690036C960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F85EA2091A9D56690036C960 = {
+			isa = PBXGroup;
+			children = (
+				F85EA2141A9D56690036C960 /* CLAFluxDispatcher */,
+				F85EA22E1A9D56690036C960 /* CLAFluxDispatcherTests */,
+				F85EA2131A9D56690036C960 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F85EA2131A9D56690036C960 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F85EA2121A9D56690036C960 /* CLAFluxDispatcher.app */,
+				F85EA22B1A9D56690036C960 /* CLAFluxDispatcherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F85EA2141A9D56690036C960 /* CLAFluxDispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				F85EA23E1A9D56820036C960 /* Classes */,
+				F85EA2191A9D56690036C960 /* AppDelegate.h */,
+				F85EA21A1A9D56690036C960 /* AppDelegate.m */,
+				F85EA21C1A9D56690036C960 /* ViewController.h */,
+				F85EA21D1A9D56690036C960 /* ViewController.m */,
+				F85EA21F1A9D56690036C960 /* Main.storyboard */,
+				F85EA2221A9D56690036C960 /* Images.xcassets */,
+				F85EA2241A9D56690036C960 /* LaunchScreen.xib */,
+				F85EA2151A9D56690036C960 /* Supporting Files */,
+			);
+			path = CLAFluxDispatcher;
+			sourceTree = "<group>";
+		};
+		F85EA2151A9D56690036C960 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F85EA2161A9D56690036C960 /* Info.plist */,
+				F85EA2171A9D56690036C960 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F85EA22E1A9D56690036C960 /* CLAFluxDispatcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				F85EA2311A9D56690036C960 /* CLAFluxDispatcherTests.m */,
+				F85EA22F1A9D56690036C960 /* Supporting Files */,
+			);
+			path = CLAFluxDispatcherTests;
+			sourceTree = "<group>";
+		};
+		F85EA22F1A9D56690036C960 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F85EA2301A9D56690036C960 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F85EA23E1A9D56820036C960 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F85EA23B1A9D567E0036C960 /* CLAFluxDispatcher.h */,
+				F85EA23C1A9D567E0036C960 /* CLAFluxDispatcher.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F85EA2111A9D56690036C960 /* CLAFluxDispatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85EA2351A9D56690036C960 /* Build configuration list for PBXNativeTarget "CLAFluxDispatcher" */;
+			buildPhases = (
+				F85EA20E1A9D56690036C960 /* Sources */,
+				F85EA20F1A9D56690036C960 /* Frameworks */,
+				F85EA2101A9D56690036C960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLAFluxDispatcher;
+			productName = CLAFluxDispatcher;
+			productReference = F85EA2121A9D56690036C960 /* CLAFluxDispatcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F85EA22A1A9D56690036C960 /* CLAFluxDispatcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85EA2381A9D56690036C960 /* Build configuration list for PBXNativeTarget "CLAFluxDispatcherTests" */;
+			buildPhases = (
+				F85EA2271A9D56690036C960 /* Sources */,
+				F85EA2281A9D56690036C960 /* Frameworks */,
+				F85EA2291A9D56690036C960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F85EA22D1A9D56690036C960 /* PBXTargetDependency */,
+			);
+			name = CLAFluxDispatcherTests;
+			productName = CLAFluxDispatcherTests;
+			productReference = F85EA22B1A9D56690036C960 /* CLAFluxDispatcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F85EA20A1A9D56690036C960 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Clay Allsopp";
+				TargetAttributes = {
+					F85EA2111A9D56690036C960 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F85EA22A1A9D56690036C960 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F85EA2111A9D56690036C960;
+					};
+				};
+			};
+			buildConfigurationList = F85EA20D1A9D56690036C960 /* Build configuration list for PBXProject "CLAFluxDispatcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F85EA2091A9D56690036C960;
+			productRefGroup = F85EA2131A9D56690036C960 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F85EA2111A9D56690036C960 /* CLAFluxDispatcher */,
+				F85EA22A1A9D56690036C960 /* CLAFluxDispatcherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F85EA2101A9D56690036C960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85EA2211A9D56690036C960 /* Main.storyboard in Resources */,
+				F85EA2261A9D56690036C960 /* LaunchScreen.xib in Resources */,
+				F85EA2231A9D56690036C960 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85EA2291A9D56690036C960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F85EA20E1A9D56690036C960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85EA23D1A9D567E0036C960 /* CLAFluxDispatcher.m in Sources */,
+				F85EA21E1A9D56690036C960 /* ViewController.m in Sources */,
+				F85EA21B1A9D56690036C960 /* AppDelegate.m in Sources */,
+				F85EA2181A9D56690036C960 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85EA2271A9D56690036C960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85EA2321A9D56690036C960 /* CLAFluxDispatcherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F85EA22D1A9D56690036C960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F85EA2111A9D56690036C960 /* CLAFluxDispatcher */;
+			targetProxy = F85EA22C1A9D56690036C960 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F85EA21F1A9D56690036C960 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85EA2201A9D56690036C960 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F85EA2241A9D56690036C960 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85EA2251A9D56690036C960 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F85EA2331A9D56690036C960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F85EA2341A9D56690036C960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F85EA2361A9D56690036C960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CLAFluxDispatcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F85EA2371A9D56690036C960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CLAFluxDispatcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F85EA2391A9D56690036C960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CLAFluxDispatcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CLAFluxDispatcher.app/CLAFluxDispatcher";
+			};
+			name = Debug;
+		};
+		F85EA23A1A9D56690036C960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CLAFluxDispatcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CLAFluxDispatcher.app/CLAFluxDispatcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F85EA20D1A9D56690036C960 /* Build configuration list for PBXProject "CLAFluxDispatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85EA2331A9D56690036C960 /* Debug */,
+				F85EA2341A9D56690036C960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85EA2351A9D56690036C960 /* Build configuration list for PBXNativeTarget "CLAFluxDispatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85EA2361A9D56690036C960 /* Debug */,
+				F85EA2371A9D56690036C960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F85EA2381A9D56690036C960 /* Build configuration list for PBXNativeTarget "CLAFluxDispatcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85EA2391A9D56690036C960 /* Debug */,
+				F85EA23A1A9D56690036C960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F85EA20A1A9D56690036C960 /* Project object */;
+}
