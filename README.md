@@ -104,5 +104,6 @@ flightPriceStore[@"dispatchToken"] =
         getFlightPriceStore(countryStore[@"country"], cityStore[@"city"]);
     }
   }];
+```
 
 The `country-update` payload will be guaranteed to invoke the stores' registered callbacks in order: `countryStore`, `cityStore`, then `flightPriceStore`.
