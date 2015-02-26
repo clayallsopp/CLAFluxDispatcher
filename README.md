@@ -1,4 +1,4 @@
-# CLAFluxDispatcher [![Build Status](https://travis-ci.org/clayallsopp/CLAFluxDispatcher.svg)](https://travis-ci.org/clayallsopp/CLAFluxDispatcher)
+# CLAFluxDispatcher [![Build Status](https://travis-ci.org/clayallsopp/CLAFluxDispatcher.svg)](https://travis-ci.org/clayallsopp/CLAFluxDispatcher) ![Pod Status](https://img.shields.io/cocoapods/v/CLAFluxDispatcher.svg)
 
 A port of Facebook's [Flux Dispatcher](https://github.com/facebook/flux) to Objective-C
 
