@@ -12,5 +12,5 @@ language: objective-c
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
-- set -o pipefail && xcodebuild test -workspace CLAFluxDispatcher.xcworkspace -scheme CLAFluxDispatcher -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
+- xcodebuild test -workspace CLAFluxDispatcher.xcworkspace -scheme CLAFluxDispatcher -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
 - pod lib lint --quick
